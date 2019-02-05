@@ -1,7 +1,12 @@
 # Introduction
 
 An ego-network organizes the social relationships between an individual (ego) and others
-(alters) into different groups (social circles). In this experiment we want to predict social circle for a new alter added to the ego-network.<br />
+(alters) into different groups (social circles). 
+
+# Paper
+[Global and Local Feature Learning for Ego-Network Analysis](https://www.uni-weimar.de/medien/webis/events/tir-17/tir17-papers-final/SalehiRizi2017_global-and-local-features-learning-for-ego-network-analysis_paper.pdf)
+
+In this study, we want to predict social circle for a new alter added to the ego-network.<br />
 
 1) Each alter belongs to one or more circles. Therefore, we need a multi-label classifier. We use a Feed Forward NN classifier.<br />
 
@@ -13,18 +18,6 @@ An ego-network organizes the social relationships between an individual (ego) an
    - loc(u)+glo(v)+sim(u,v) <br />
    - glo(u)+glo(v)+sim(u,v) <br />
    - loc(u)+glo(u)+glo(v)+sim(u,v)<br />
-
-3) classification results reported as average F1 score:<br />
-
-   - 0.422<br />
-   - 0.372<br />
-   - 0.371<br />
-
-   - 0.455<br />
-   - 0.407<br />
-   - 0.388<br />
-# time
-871.0507509708405 seconds 
 
 # global and local vectors
 
