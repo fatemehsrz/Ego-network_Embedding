@@ -1,4 +1,3 @@
-# Introduction
 
 An ego-network organizes the social relationships between an individual (ego) and others
 (alters) into different groups (social circles). 
