@@ -11,7 +11,7 @@ An ego-network organizes the social relationships between an individual (ego) an
 [Twitter](https://snap.stanford.edu/data/egonets-Twitter.html) <br />
 [Google+](https://snap.stanford.edu/data/egonets-Gplus.html) <br />
 
-
+# Introduction
 In this study, we want to predict social circle for a new alter added to the ego-network.<br />
 
 1) Each alter belongs to one or more circles. Therefore, we need a multi-label classifier. We use a Feed Forward NN classifier.<br />
@@ -34,8 +34,6 @@ loc(u): applying ParagraphVector to ego-walks (walks over one ego-network) retur
  
 | file or folder                  |                                           function or content                                                  | 
 | ------------------------------- |--------------------------------------------------------------------------------------------------------------- |
-|binaryLabels.csv                 | alters' lables in the binary form                                                                              |
-|common_features.txt              | common profile features between ego u and alter v                                                              |
 |locglo.py                        | applying NN classifier where each row of feature matrix is loc(u)+glo(v)                                       | 
 |gloglo.py                        | applying NN classifier where each row of feature matrix is glo(u)+glo(v)                                       |
 |locgloglo.py                     | applying NN classifier where each row of feature matrix is loc(u)+glo(u)+glo(v)                                |
