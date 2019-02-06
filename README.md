@@ -1,7 +1,3 @@
-
-An ego-network organizes the social relationships between an individual (ego) and others
-(alters) into different groups (social circles). 
-
 # Paper
 [Global and Local Feature Learning for Ego-Network Analysis](https://www.uni-weimar.de/medien/webis/events/tir-17/tir17-papers-final/SalehiRizi2017_global-and-local-features-learning-for-ego-network-analysis_paper.pdf)
 
@@ -11,7 +7,9 @@ An ego-network organizes the social relationships between an individual (ego) an
 [Google+](https://snap.stanford.edu/data/egonets-Gplus.html) <br />
 
 # Introduction
-In this study, we want to predict social circle for a new alter added to the ego-network.<br />
+
+An ego-network organizes the social relationships between an individual (ego) and others
+(alters) into different groups (social circles). In this study, we want to predict social circle for a new alter added to the ego-network.<br />
 
 1) Each alter belongs to one or more circles. Therefore, we need a multi-label classifier. We use a Feed Forward NN classifier.<br />
 
